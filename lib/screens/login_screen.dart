@@ -24,8 +24,6 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-    _usernameController.text = "admin";
-    _passwordController.text = "admin123";
   }
 
   Future<void> _saveUsername(String username) async {
